@@ -11,7 +11,7 @@
     margin-top: 120px;
 }
 
-.text-box {
+.text {
     width: 300px;
     height: 40px;
     margin-bottom:10px;
@@ -24,4 +24,25 @@
 
 .index{
     margin-bottom: 10px;
+}
+
+html {
+    background-color:bisque;
+    height:100%;
+}
+
+body {
+    background-color: bisque;
+}
+
+.card {
+    position: relative;
+    left: 10%;
+    width: 60%;
+    background-color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 20px 10px 10px
 }

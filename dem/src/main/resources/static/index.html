@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div id="response">
+    <div id="response" class="result" hidden="true">
+        <h1 class="title" style="margin-left:10%">Burnol</h1>
 
     </div>
     <div id="search" class="form-container">
         <h1 class="title">Burnol</h1>
-        <form class="search-form" method="GET" action="/test">
-            <input name="text" type="text" id="text" placeholder="Enter your query!" class="text-box"><br>
+        <form class="search-form" >
+            <input name="text" type="text" id="text" placeholder="Enter your query!" class="text"><br>
             <label for="indexing">Choose Indexing:</label>
             <select name="index" id="index" class="index">
                 <option value="lucene">Lucene</option>
@@ -21,5 +22,6 @@
             <input type="submit" value="Search" class="submit">
         </form>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

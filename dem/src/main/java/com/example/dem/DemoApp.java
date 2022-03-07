@@ -11,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.dem.model.Demo;
 import com.example.dem.repository.Repo;
 
+
+
 @SpringBootApplication
 public class DemoApp {
 	
