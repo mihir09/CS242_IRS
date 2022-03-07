@@ -63,6 +63,7 @@ public class Controllers {
 	
 	@RequestMapping(value = "/result", method = RequestMethod.GET)
 	public String showData(){
+		
 		return "result.html";
 	}
 //	@RequestMapping(value = "/findData/{word}", method = RequestMethod.GET)
